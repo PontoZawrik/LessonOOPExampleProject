@@ -8,8 +8,8 @@ private:
 	string name;
 public:
 	Group();
-	Group(Student* ls, int sz, string nm);
-	Group(string nm);
+	Group(Student* list, int size, string name);
+	Group(string name);
 	~Group();
 
 	void add(Student student);

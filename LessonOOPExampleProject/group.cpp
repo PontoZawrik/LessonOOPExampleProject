@@ -6,14 +6,14 @@ Group::Group() {
 	name = "no name";
 }
 
-Group::Group(Student* ls, int sz, string nm) {
-	list = ls;
-	size = sz;
-	name = nm;
+Group::Group(Student* list, int size, string name) {
+	this->list = list;
+	this->size = size;
+	this->name = name;
 }
 
-Group::Group(string nm) {
-	name = nm;
+Group::Group(string name) {
+	this->name = name;
 	list = NULL;
 	size = 0;
 }

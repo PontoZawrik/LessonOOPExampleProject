@@ -1,4 +1,3 @@
-
 #pragma once
 #include"main.h"
 class Human {
@@ -13,18 +12,18 @@ public:
 	Human();
 
 	//default constructor with arguments
-	Human(string nm, string surnm, int a);
+	Human(string name, string surname, int age);
 
 	~Human();
 
 	string getName();
-	void setName(string n);
+	void setName(string name);
 
 	string getSurname();
-	void setSurname(string n);
+	void setSurname(string surname);
 
 	int getAge();
-	void setAge(int a);
+	void setAge(int age);
 
 
 	string convert();
